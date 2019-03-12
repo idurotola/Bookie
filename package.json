@@ -1,0 +1,49 @@
+{
+  "name": "bookie",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idurotola/Bookie.git"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --reporter spec --timeout 10000"
+  },
+  "author": "Durotola Iyanu-Tomiwa",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "async": "^2.0.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.15.2",
+    "connect-mongo": "^1.3.2",
+    "database-cleaner": "^1.2.0",
+    "dotenv": "^4.0.0",
+    "errorhandler": "^1.4.3",
+    "expect.js": "^0.3.1",
+    "express": "^4.14.0",
+    "express-validator": "^2.20.8",
+    "factory-girl": "^4.2.2",
+    "file-stream-rotator": "^0.1.0",
+    "fs": "^0.0.1-security",
+    "helmet": "^3.5.0",
+    "jsonwebtoken": "^7.3.0",
+    "lodash.find": "^4.6.0",
+    "lodash.pick": "^4.4.0",
+    "method-override": "^2.3.8",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.4.18",
+    "morgan": "^1.7.0",
+    "needle": "^2.2.4",
+    "validator": "^6.0.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=6.x",
+    "npm": ">=3.x"
+  }
+}
